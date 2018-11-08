@@ -130,9 +130,9 @@ DEVICE_MANIFEST_FILE := device/lenovo/kuntao/manifest.xml
 DEVICE_MATRIX_FILE := device/lenovo/kuntao/compatibility_matrix.xml
 
 # Hal's
-TARGET_QCOM_AUDIO__VARIANT := caf-msm8996
-TARGET_QCOM_DISPLAY_VARIANT := caf-msm8996
-TARGET_QCOM_MEDIA_VARIANT := caf-msm8996
+TARGET_QCOM_AUDIO__VARIANT := caf-msm8937
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8937
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8937
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/display-$(TARGET_QCOM_DISPLAY_VARIANT) \
@@ -211,9 +211,6 @@ TARGET_RECOVERY_FSTAB := device/lenovo/kuntao/rootdir/etc/fstab.qcom
 # Render
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 USE_OPENGL_RENDERER := true
-
-# RIL
-TARGET_RIL_VARIANT := caf
 
 # SELinux
 #BOARD_SEPOLICY_DIRS += device/lenovo/kuntao/sepolicy
