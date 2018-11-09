@@ -130,7 +130,7 @@ DEVICE_MANIFEST_FILE := device/lenovo/kuntao/manifest.xml
 DEVICE_MATRIX_FILE := device/lenovo/kuntao/compatibility_matrix.xml
 
 # Hal's
-TARGET_QCOM_AUDIO__VARIANT := caf-msm8937
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8937
 TARGET_QCOM_DISPLAY_VARIANT := caf-msm8937
 TARGET_QCOM_MEDIA_VARIANT := caf-msm8937
 
